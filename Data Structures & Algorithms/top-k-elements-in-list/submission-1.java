@@ -18,12 +18,12 @@ class Solution {
             if(list.size() == k) break;
         }
 
-        int[] result = new int[list.size()];
+        int[] output = new int[list.size()];
 
         for (int i = 0; i < list.size(); i++) {
-            result[i] = list.get(i);
+            output[i] = list.get(i);
         }
 
-        return result;
+        return output;
     }
 }
